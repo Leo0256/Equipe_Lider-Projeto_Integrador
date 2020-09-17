@@ -1,5 +1,5 @@
 # Projeto_Integrador
-TESTE
+
 1° semestre: Site de venda de Conteúdos Acadêmicos
 
 desenvolver um site para venda de conteudos didáticos 
