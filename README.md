@@ -16,11 +16,11 @@ requisitos do cliente:
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Equipe Líder
 
-- Leonardo Gustavo Ribeiro
+- Leonardo Gustavo Ribeiro - Programador 
     - leo.ribeiro0256@gmail.com
     - leonardo.ribeiro11@fatec.sp.gov.br
 
-- Letícia Salles Bettoni da Costa
+- Letícia Salles Bettoni da Costa - 
     - leticia.costa12@fatec.sp.gov.br
 
 - Guilherme Leite Silva
@@ -29,11 +29,11 @@ requisitos do cliente:
 - Matheus Emboaba Mello de Souza
     - matheus.souza130@fatec.sp.gov.br
 
-- Thiago da Silva
+- Thiago da Silva - Programador Jr.
     - thiago.silva403@fatec.sp.gov.br
 
-- Patrícia Oliveira de Souza Ciliato
+- Patrícia Oliveira de Souza Ciliato - Designer 
     - patricia.ciliato@fatec.sp.gov.br
 
-- Daniela dos Santos Meirelles
+- Daniela dos Santos Meirelles - Designer
     - daniela.meirelles@fatec.sp.gov.br
