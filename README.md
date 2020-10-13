@@ -35,7 +35,7 @@ que pode ser usado sem complicações.
 
 - [Leonardo Gustavo Ribeiro](https://github.com/Leo0256) - Programador
 
-- [Letícia Salles Bettoni da Costa](https://github.com/leticiasalles) - Designer
+- [Letícia Salles Bettoni da Costa](https://github.com/leticiasalles) - Organizadora
 
 - [Guilherme Leite Silva](https://github.com/Glsilva) - Organizador
 
