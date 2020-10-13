@@ -6,7 +6,7 @@ Desenvolvimento de Sistemas para o Prof. Antonio Egydio, sendo o cliente simulad
 
 ## Objetivo
 
-## Declarativo do Projeto
+### Declarativo do Projeto
 Para o Prof. Antonio Egydio, que deseja vender 
 conteúdos acadêmicos, o SharEduca é um site de vendas de 
 vídeos e documentos que possuí uma aparencia simples e 
@@ -16,7 +16,7 @@ que pode ser usado sem complicações.
 
 
 ### Requisitos do Cliente
- - cadastro usuario;
+ - cadastro usuário;
  - carrinho de compras;
  - programar as funcionalidades;
  - cadastro de crédito;
