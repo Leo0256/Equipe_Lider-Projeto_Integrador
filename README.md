@@ -32,14 +32,16 @@ Desenvolvimento de Sistemas para o Prof. Antônio Egydio, sendo o cliente simula
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Objetivo
-Desenvolver um site para venda de conteúdo acadêmico, considerando sua elaboração para atender o ciclo completo, até a venda, de acordo com os requisitos exigidos pelo cliente. 
+Desenvolver um site para venda de conteúdo acadêmico, considerando sua elaboração para atender o ciclo completo, até a venda, 
+de acordo com os requisitos exigidos pelo cliente. 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Descritivo do Projeto
-Direcionado ao cliente Prof. Antônio Egydio, que deseja vender conteúdos acadêmicos, o SharEduca é um site que possuí uma aparência simples e 
-intuitiva para disponibilizar seus produtos. 
+Para o Prof. Antonio Egydio, que deseja vender conteúdos acadêmicos, o SharEduca é um site de vendas de 	
+vídeos e documentos que possuí uma aparencia simples e intuitiva para disponibilizar seus produtos. Diferente de outras 	
+lojas online como a Udemy, não vende cursos mas sim o conteúdo de estudo e consulta, que pode ser usado sem complicações. 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Requisitos do Cliente
 - Página inicial
 - Empresa
@@ -53,27 +55,15 @@ intuitiva para disponibilizar seus produtos.
 - Layout do site (alinhado com o escopo)
 - Banco de dados 
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Diagrama de Caso de Uso
 ![diagrama_caso-uso](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Diagrama%20de%20Caso%20de%20Uso.png)
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### Entregas
-- Sprint 0 - 07/09/2020 a 27/09/2020
-- Sprint 1 - 28/09/2020 a 17/10/2020
-- Sprint 2 - 19/10/2020 a 8/11/2020
-- Sprint 3 - 09/11/2020 a 29/11/2020
+- <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%200'>Sprint 0</a> - 07/09/2020 a 27/09/2020
+- <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%201'>Sprint 1</a> - 28/09/2020 a 17/10/2020
+- <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%202'>Sprint 2</a> - 19/10/2020 a 8/11/2020
+- <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%203'>Sprint 3</a> - 09/11/2020 a 29/11/2020
 
  -----------------------------------------------------------------------------------------------------------------------------------------------------------
- 
- ## Sprint 0
-
-<a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%200'>Sprint 0</a>
- 
- 
- ## Sprint 1
-
-<a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%201'>Sprint 1</a>
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------
-
