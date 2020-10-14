@@ -59,13 +59,15 @@ intuitiva para disponibilizar seus produtos.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Entregas
-Sprint 0 - 07/09/2020 a 27/09/2020
-Sprint 1 - 28/09/2020 a 17/10/2020
-Sprint 2 - 19/10/2020 a 8/11/2020
-Sprint 3 - 09/11/2020 a 29/11/2020
+- Sprint 0 - 07/09/2020 a 27/09/2020
+- Sprint 1 - 28/09/2020 a 17/10/2020
+- Sprint 2 - 19/10/2020 a 8/11/2020
+- Sprint 3 - 09/11/2020 a 29/11/2020
 
- Sprint 0- <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%200'>Sprint 0</a>
- Sprint 1- <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%201'>Sprint 1</a>
+ -Sprint 0
+ <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%200'>Sprint 0</a>
+ -Sprint 1
+ <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%201'>Sprint 1</a>
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
