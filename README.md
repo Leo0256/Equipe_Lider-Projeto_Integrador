@@ -41,17 +41,17 @@ intuitiva para disponibilizar seus produtos.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Requisitos do Cliente
-1- Página inicial
-2- Empresa
-3- Conteúdos
-4- Contato
-5- Login
-6- Carrinho de Compras
-7- Formas de Pagamento
-8- Design do site 
-9- Finalização do Layout e Design do site 
-10- Layout do site (alinhado com o escopo)
-11- Banco de dados 
+- Página inicial
+- Empresa
+- Conteúdos
+- Contato
+- Login
+- Carrinho de Compras
+- Formas de Pagamento
+- Design do site 
+- Finalização do Layout e Design do site 
+- Layout do site (alinhado com o escopo)
+- Banco de dados 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Diagrama de Caso de Uso
