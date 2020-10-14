@@ -66,12 +66,12 @@ intuitiva para disponibilizar seus produtos.
 
  -----------------------------------------------------------------------------------------------------------------------------------------------------------
  
- # -Sprint 0
+ ## Sprint 0
 
 <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%200'>Sprint 0</a>
  
  
- # -Sprint 1
+ ## Sprint 1
 
 <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%201'>Sprint 1</a>
 
