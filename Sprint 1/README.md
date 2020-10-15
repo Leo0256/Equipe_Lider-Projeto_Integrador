@@ -13,6 +13,13 @@ Os valores entregues enumerados abaixo, possibilitam que o objetivo citado seja 
 - Funções do Carrinho de Compras
 - Conteúdo (Língua Portuguesa PDF- Pontuação)
 - Conteúdo (Inglês PDF- Teoria) 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+### Imagens para ilustrar o conteúdo de Língua Portuguesa (Conteúdo completo em formato PDF).
+![Imagens para ilustrar o conteúdo de Língua Portuguesa](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/issues/1#issue-722718703)
+
+
  
 
 
