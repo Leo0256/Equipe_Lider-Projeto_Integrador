@@ -9,7 +9,8 @@ Os valores entregues enumerados abaixo, possibilitam que o objetivo citado seja 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Valores entregues (Com base nos requisitos):
-- Conteúdos
+- Conteúdo (Inglês PDF- Teoria) 
+- Conteúdo (Língua Portuguesa PDF- Pontuação)
 - Carrinho de compras
 - Formas de pagamento 
 
