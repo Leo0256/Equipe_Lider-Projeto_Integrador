@@ -66,7 +66,7 @@ lojas online como a Udemy, não vende cursos mas sim o conteúdo de estudo e con
 - Layout da empresa (Missão, Visão e Valores)
 - Implantação do banco de dados
 - Implementação do banco de dados
-- Testes
+- Teste de implantação do site 
 - Hospedagem e domínio 
  
 
