@@ -1,6 +1,6 @@
 <?php
-    include_once(".\Controle\controle.php");
+    include_once "Controller/controller.php";
 
     $controle = new Controle();
-    $controle->iniciar();
+    $controle->invoke();
 ?>

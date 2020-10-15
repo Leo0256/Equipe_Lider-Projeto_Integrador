@@ -36,16 +36,10 @@
         <a class="btn btn-outline-primary" href="#">Login</a>
     </div>
 
-    <img class="img-thumbnail" src="imagens/exemplo.jpg">
+    <!--img class="img-thumbnail" src="imagens/exemplo.jpg"-->
     
     <?php
-        echo "<h2>".$ex."</h2>"
+        
     ?>
-    <h2>texto</h2>
-    <h2>texto</h2>
-    <h2>texto</h2>
-    <h2>texto</h2>
-    <h2>texto</h2>
-    <h2>texto</h2>
 </body>
 </html>
