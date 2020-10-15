@@ -44,18 +44,19 @@ lojas online como a Udemy, não vende cursos mas sim o conteúdo de estudo e con
 
 ### Requisitos do Cliente
 - Layout Página inicial
-- Conteúdo (Inglês PDF- Teoria) 
-- Conteúdo (Língua Portuguesa PDF- Pontuação)
-- Conteúdo (Inglês PDF- Exercícios)
-- Conteúdo (Língua Portuguesa PDF- Concordância)
-- Conteúdo (Matemática Discreta- Grafos e Lógica)
-- Conteúdo (Língua Portuguesa- Vídeos de concordância e pontuação)
-- Conteúdo (Laboratório de Hardware- Introdução ao Computador)
-- Conteúdo (Laboratório de Hardware- Componentes do computador)
-- Conteúdo (Arquitetura e Organização de Computadores- História)
-- Conteúdo (Arquitetura e Organização de Computadores- CPU)
-- Conteúdo (Lógica de Programação- Introdução- O que é lógica de programação?)
-- Conteúdo (Lógica de Programação- O que é um algoritmo?)
+- Conteúdos:
+  - Inglês PDF- Teoria;
+  - Língua Portuguesa PDF- Pontuação;
+  - Inglês PDF- Exercícios;
+  - Língua Portuguesa PDF- Concordância;
+  - Matemática Discreta- Grafos e Lógica;
+  - Língua Portuguesa- Vídeos de concordância e pontuação;
+  - Laboratório de Hardware- Introdução ao Computador;
+  - Laboratório de Hardware- Componentes do computador;
+  - Arquitetura e Organização de Computadores- História;
+  - Arquitetura e Organização de Computadores- CPU;
+  - Lógica de Programação- Introdução- O que é lógica de programação?;
+  - Lógica de Programação- O que é um algoritmo?;
 - Layout do contato
 - Layout Login
 - Funções do Carrinho de Compras
@@ -68,7 +69,6 @@ lojas online como a Udemy, não vende cursos mas sim o conteúdo de estudo e con
 - Testes
 - Hospedagem e domínio 
  
-
 
 ### Diagrama de Caso de Uso
 ![diagrama_caso-uso](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Diagrama%20de%20Caso%20de%20Uso.png)
