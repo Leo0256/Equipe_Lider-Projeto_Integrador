@@ -9,10 +9,11 @@ Os valores entregues enumerados abaixo, possibilitam que o objetivo citado seja 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Valores entregues (Com base nos requisitos):
-- Conteúdo (Inglês PDF- Teoria) 
+- Formas de pagamento
+- Funções do Carrinho de Compras
 - Conteúdo (Língua Portuguesa PDF- Pontuação)
-- Carrinho de compras
-- Formas de pagamento 
+- Conteúdo (Inglês PDF- Teoria) 
+ 
 
 
 
