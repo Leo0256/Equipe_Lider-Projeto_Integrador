@@ -77,9 +77,9 @@ lojas online como a Udemy, não vende cursos mas sim o conteúdo de estudo e con
 ![linha_do_tempo_das_sprints](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/linha%20do%20tempo%20das%20sprints.png)
 
 ### Entregas
-- <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%200'>Sprint 0</a> 
-- <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%201'>Sprint 1</a> 
-- <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%202'>Sprint 2</a> 
-- <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%203'>Sprint 3</a> 
+- <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%200'>Sprint 0</a> - 07/09/2020 a 27/09/2020
+- <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%201'>Sprint 1</a> - 28/09/2020 a 17/10/2020
+- <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%202'>Sprint 2</a> - 19/10/2020 a 08/11/2020
+- <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%203'>Sprint 3</a> - 09/11/2020 a 29/11/2020
 
  -----------------------------------------------------------------------------------------------------------------------------------------------------------
