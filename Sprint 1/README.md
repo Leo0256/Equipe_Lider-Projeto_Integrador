@@ -16,8 +16,9 @@ Os valores entregues enumerados abaixo, possibilitam que o objetivo citado seja 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
-### Imagens para ilustrar o conteúdo de Língua Portuguesa (Conteúdo completo em formato PDF).
-![Imagens para ilustrar o conteúdo de Língua Portuguesa](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/issues/1#issue-722718703)
+### Imagens para ilustrar o conteúdo de Língua Portuguesa (Conteúdo completo em formato PDF)
+
+![Slide1.JPG](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Projeto/Documentos/Imagens)
 
 
  
