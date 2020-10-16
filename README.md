@@ -83,3 +83,9 @@ lojas online como a Udemy, não vende cursos mas sim o conteúdo de estudo e con
 - <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%203'>Sprint 3</a> - 09/11/2020 a 29/11/2020
 
  -----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### Cards das Sprints
+
+![Card_0](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Card%200.jpg)
+
+![Card_1](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Card%201.jpg)
