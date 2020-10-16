@@ -74,8 +74,7 @@ lojas online como a Udemy, não vende cursos mas sim o conteúdo de estudo e con
 ![diagrama_caso-uso](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Diagrama%20de%20Caso%20de%20Uso.png)
 
 ### Linha do Tempo
-![linha_do_tempo_das_sprints](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/linha%20do%20tempo%20das%20sprints.png)
-
+![Linha_do_tempo_atualizada](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Linha%20do%20tempo%20atualizada.png)
 ### Entregas
 - <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%200'>Sprint 0</a> - 07/09/2020 a 27/09/2020
 - <a href='https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Sprint%201'>Sprint 1</a> - 28/09/2020 a 17/10/2020
