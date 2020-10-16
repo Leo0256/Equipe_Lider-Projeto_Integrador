@@ -13,11 +13,17 @@ Os valores entregues enumerados abaixo, possibilitam que o objetivo citado seja 
 - Funções do Carrinho de Compras
 - Conteúdo (Língua Portuguesa PDF- Pontuação)
 - Conteúdo (Inglês PDF- Teoria) 
+- Plano de Negócio
+- ROI (Return on Investment)
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 ## Fluxograma do Carrinho de Compras
 
 ![fluxograma carrinho](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Fluxograma%20do%20Carrinho%20de%20Compras.jpg)
+-----------------------------------------------------------------------------------------------------------------------------------------------
+## Cálculo de Retorno de Investimento (ROI)
+![Cálculo_de_Retorno_de_Investimento_(ROI)](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/C%C3%A1lculo%20de%20Retorno%20de%20Investimento%20(ROI).jpg)
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Imagens para ilustração do conteúdo de Língua Portuguesa- Pontuação (Conteúdo na íntrega em formato PDF):
