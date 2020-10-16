@@ -21,6 +21,14 @@ Os valores entregues enumerados abaixo, possibilitam que o objetivo citado seja 
 ## Fluxograma do Carrinho de Compras
 
 ![fluxograma carrinho](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Fluxograma%20do%20Carrinho%20de%20Compras.jpg)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------
+## Plano de Negócio
+
+![PN1](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/PN1.jpg)
+![PN2](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/PN2.jpg)
+![PN3](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/PN3.jpg)
+![PN4](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/PN4.jpg)
 -----------------------------------------------------------------------------------------------------------------------------------------------
 ## Cálculo de Retorno de Investimento (ROI)
 ![Cálculo_de_Retorno_de_Investimento_(ROI)](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/C%C3%A1lculo%20de%20Retorno%20de%20Investimento%20(ROI).jpg)
