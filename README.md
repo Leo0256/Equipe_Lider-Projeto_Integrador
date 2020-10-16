@@ -68,6 +68,9 @@ lojas online como a Udemy, não vende cursos mas sim o conteúdo de estudo e con
 - Implementação do banco de dados
 - Teste de implantação do site 
 - Hospedagem e domínio 
+- Plano de negócio
+- ROI (Return on Investment)
+
  
 
 ### Diagrama de Caso de Uso
