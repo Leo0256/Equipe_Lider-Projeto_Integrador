@@ -1,4 +1,5 @@
 <?php
+	namespace Model;
 
 	class Connection{
 		var $query;
@@ -19,7 +20,7 @@
 			mysqli_close($this->link);
 		}
 		
-		function executeQuery($query){
+		function execute($query){
 			
 			$request = "";
 

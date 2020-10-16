@@ -1,6 +1,7 @@
 <?php
     include_once "Controller/controller.php";
+    use Controller\Controller;
 
-    $controle = new Controle();
-    $controle->invoke();
+    $controle = new Controller();
+    $controle->cart();
 ?>

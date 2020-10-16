@@ -25,11 +25,11 @@
             <img class="card-img-overlay" style="border-radius: 35px;" src="imagens/logo.jpeg" width="150px">
         </div>
         <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-dark mark" href="Menu.html">Página Inicial</a>
+            <a class="p-2 text-dark mark" href="">Página Inicial</a>
             <a class="p-2 text-dark" href="Empresa.html">Empresa</a>
             <a class="p-2 text-dark" href="#">Conteúdos</a>
             <a class="p-2 text-dark" href="#">Contato</a>
-            <a class="p-2" href="Carrinho.html">
+            <a class="p-2" href="Carrinho.php">
                 <img class="figure figure-caption" src="imagens/carrinho.png" width="30px">
             </a>
         </nav>
