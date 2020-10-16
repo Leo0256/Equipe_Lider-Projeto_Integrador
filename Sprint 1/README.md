@@ -32,9 +32,9 @@ Os valores entregues enumerados abaixo, possibilitam que o objetivo citado seja 
 
 ## Imagens para ilustração do conteúdo de Inglês- Teoria (Conteúdo na íntrega em formato PDF):
 
-![ING2](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/ING/ING2.JPG)
+![ING2]()
 
-![ING3](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/ING/ING3.JPG)
+![ING3]()
 
 
  
