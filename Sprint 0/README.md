@@ -18,7 +18,7 @@ Para esta entrega, tivemos como ideia ilustrar através de cards com imagens a a
 ## Product Backlog e Sprint Backlog entregues:
 
 ![BacklogV3](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/BacklogV3.png)
-![legendaOK](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/legendaOK.png)
+![legendaV3](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/legendaV3.png)
 
 ------------------------------------------------------------------------------------------------------------------------------
 
