@@ -36,11 +36,11 @@ Os valores entregues enumerados abaixo, possibilitam que o objetivo citado seja 
 
 ## Imagens para ilustração do conteúdo de Língua Portuguesa- Pontuação (Conteúdo na íntrega em formato PDF):
 
-![LP1](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LP/LP1.JPG)
+![LP01](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LP/LP01.JPG)
 
-![LP2](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LP/LP2.JPG)
+![LP02](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LP/LP02.JPG)
 
-![LP3](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LP/LP3.JPG)
+![LP03](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LP/LP03.JPG)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
 
