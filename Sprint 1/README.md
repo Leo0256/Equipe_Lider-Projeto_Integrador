@@ -25,8 +25,8 @@ Os valores entregues enumerados abaixo, possibilitam que o objetivo citado seja 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 ## Plano de Negócio
 
-![PN1](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Projeto/Documentos/Imagens/Plano%20de%20Neg%C3%B3cio/PN1.jpg)
-![PN2](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Projeto/Documentos/Imagens/Plano%20de%20Neg%C3%B3cio/PN2.jpg)
+![PN1](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Plano%20de%20Neg%C3%B3cio/PN1.jpg)
+![PN2](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Plano%20de%20Neg%C3%B3cio/PN2.jpg)
 ![PN3](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Plano%20de%20Neg%C3%B3cio/PN3.jpg)
 ![PN4](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Plano%20de%20Neg%C3%B3cio/PN4.jpg)
 -----------------------------------------------------------------------------------------------------------------------------------------------
