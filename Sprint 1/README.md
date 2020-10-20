@@ -25,10 +25,10 @@ Os valores entregues enumerados abaixo, possibilitam que o objetivo citado seja 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 ## Plano de Negócio
 
-![PN1](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/PN1.jpg)
-![PN2](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/PN2.jpg)
-![PN3](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/PN3.jpg)
-![PN4](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/PN4.jpg)
+![PN1](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Projeto/Documentos/Imagens/Plano%20de%20Neg%C3%B3cio/PN1.jpg)
+![PN2](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/tree/master/Projeto/Documentos/Imagens/Plano%20de%20Neg%C3%B3cio/PN2.jpg)
+![PN3](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Plano%20de%20Neg%C3%B3cio/PN3.jpg)
+![PN4](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Plano%20de%20Neg%C3%B3cio/PN4.jpg)
 -----------------------------------------------------------------------------------------------------------------------------------------------
 ## Cálculo de Retorno de Investimento (ROI)
 ![Cálculo_de_Retorno_de_Investimento_(ROI)](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/C%C3%A1lculo%20de%20Retorno%20de%20Investimento%20(ROI).jpg)
@@ -46,9 +46,9 @@ Os valores entregues enumerados abaixo, possibilitam que o objetivo citado seja 
 
 ## Imagens para ilustração do conteúdo de Inglês- Teoria (Conteúdo na íntrega em formato PDF):
 
-![ING2](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LP/ING2.JPG)
+![ING2](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/ING/ING2.JPG)
 
-![ING3](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LP/ING3.JPG)
+![ING3](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/ING/ING3.JPG)
 
 
  
