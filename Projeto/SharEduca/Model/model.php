@@ -21,7 +21,7 @@
 
         public function setCart($cart, $item){
             $request = $this->con->execute(
-                "call Colocar_Item($cart, $item);"
+                "call add_ItemCarrinho($cart, $item);"
             );
             if($request == 1){
                 return "Item adicionado ao Carrinho.";
@@ -52,19 +52,39 @@
             }
         }
 
+        public function getContent($name){
+            try{
+                $request = $this->con->execute('select id from Conteudo where nome = "'.$name.'";');
+                //"select id from Conteudo where nome like ".$name.";"
+                return $request->fetch_assoc()["id"];
+
+            }catch(mysqli_sql_exception $e){
+                throw "Erro: ".$e;
+            }
+        }
+
         public function saveData($file){
-            $request = $this->con->execute(
-                "insert into Item(nome,tipo,tamanho,conteudo,valor) values ("
-                .$file['name'].","
-                .$file['type'].","
-                .$file['size'].","
-                .$file['content'].","
-                .$file['value'].");"
-            );
-            if($request == 1){
-                return "Item armazenado.";
-            }else{
-                return "Erro ao armazenar o Item.";
+
+            $query = "insert into Item(nome,tipo,tamanho) values ('".
+                $file["name"]."','".
+                $file["type"]."',".
+                $file["size"]
+            .");";
+
+            try{
+                $request = $this->con->execute($query);
+
+                $query = "update Item set conteudo = ".$file["content"]
+                    .",valor = ".$file["value"]." where nome = '".$file["name"]."' limit 1;";
+                $request = $this->con->execute($query);
+
+                if(!empty($request)){
+                    return $request;
+                }
+                return "Erro ao salvar o arquivo: ".$request;
+
+            }catch(mysqli_sql_exception $e){
+                throw "Erro: ".$e;
             }
         }
     }

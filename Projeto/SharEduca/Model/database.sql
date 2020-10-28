@@ -15,7 +15,7 @@ nome varchar(200) not null
 
 create table if not exists Item(
 id int primary key auto_increment,
-conteudo int,
+conteudo int default 0,
 nome varchar(250) not null,
 tipo varchar(10) not null,
 tamanho int not null,
@@ -38,7 +38,7 @@ constraint FK_id_Item foreign key (item) references Item(id)
 );
 
 delimiter $$
-create procedure Colocar_Item(n_cart int, n_item int)
+create procedure add_ItemCarrinho(n_cart int, n_item int)
 begin
 	declare verifica int;
     select count(item) into verifica from Item_Carrinho where 
@@ -74,14 +74,19 @@ insert into Conteudo values
 (1, "Português"),
 (2, "Inglês");
 
-insert into Item values
-(1001, 1, "Pontuação", 15.90),
-(2001, 2, "Verbo To Be", 18.50);
+select id from Conteudo where nome like "Inglês";
 
 insert into Carrinho values
 (101, 1);
 
 select * from Item_Carrinho;
+select * from Item;
+select * from Conteudo where nome = "Português";
+
+update Item set conteudo = 1, tipo = "jpeg" where id like 1 limit 1;
+insert into Item(nome, valor) values ("teste", 42);
+
+truncate table Item;
 
 call Colocar_Item(101,1001);
 call Limpar_Carrinho(101);
