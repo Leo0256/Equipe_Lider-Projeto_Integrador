@@ -34,7 +34,13 @@ Possibilitar ao cliente a venda do conteúdo acadêmico já disponibilizado.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 ## Prévia dos Exercícios de Inglês (Conteúdo na íntrega em formato PDF). 
 
-![nome da imagem na pasta](link da imagem na pasta)
+![exerc.ingles1](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/ING/exerc.ingles1.jpg)
+
+![exerc.ingles2](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/ING/exerc.ingles2.jpg)
+
+![exerc.ingles3](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/ING/exerc.ingles3.jpg)
+
+![exerc.ingles4](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/ING/exerc.ingles4.jpg)
 
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
