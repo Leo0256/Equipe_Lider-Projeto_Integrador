@@ -8,16 +8,15 @@
         <nav class="my-2 my-md-0 mr-md-3">
             <a class="p-2 text-dark" href="Menu">Página Inicial</a>
             <a class="p-2 text-dark" href="Empresa">Empresa</a>
-            <a class="p-2 text-dark" href="Conteudos">Conteúdos</a>
+            <a class="p-2 text-dark mark" href="#">Conteúdos</a>
             <a class="p-2 text-dark" href="Contato">Contato</a>
             <a class="p-2" href="Carrinho">
                 <img class="figure figure-caption" src="imagens/carrinho.png" width="30px">
             </a>
         </nav>
-        <a class="btn btn-outline-primary active" href="#">Login</a>
+        <a class="btn btn-outline-primary" href="Login">Login</a>
     </div>
 
     <br><br>
-    <h2>Login</h2>
 </body>
 </html>

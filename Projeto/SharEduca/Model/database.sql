@@ -1,11 +1,12 @@
-create database if not exists SharEduca;
-use SharEduca;
+create database if not exists SharEducaDB;
+use SharEducaDB;
 
 create table if not exists Usuario(
 id int primary key auto_increment,
 nome varchar(200) not null,
 email varchar(250) unique not null,
-senha varchar(50) not null
+senha varchar(50) not null,
+acesso int default 0
 );
 
 create table if not exists Conteudo(
@@ -31,8 +32,8 @@ constraint FK_id_Usuario foreign key (usuario) references Usuario(id)
 
 create table if not exists Item_Carrinho(
 id int primary key auto_increment,
-carrinho int,
-item int,
+carrinho int not null,
+item int not null,
 constraint FK_id_Carrinho foreign key (carrinho) references Carrinho(id),
 constraint FK_id_Item foreign key (item) references Item(id)
 );
@@ -51,14 +52,14 @@ end $$
 delimiter ;
 
 delimiter $$
-create procedure Limpar_Carrinho(n_cart int)
+create procedure clear_ItemCarrinho(n_cart int)
 begin
 	delete from Item_Carrinho where carrinho like n_cart limit 500;
 end $$
 delimiter ;
 
 delimiter $$
-create procedure Remover_Item(n_cart int, n_item int)
+create procedure remove_ItemCarrinho(n_cart int, n_item int)
 begin
 	delete from Item_Carrinho 
 		where carrinho like n_cart and
@@ -67,32 +68,25 @@ begin
 end $$
 delimiter ;
 
-insert into Usuario values
-(1, "Miriam", "botlike@", "1234");
+#----------Testes----------#
 
-insert into Conteudo values
-(1, "Português"),
-(2, "Inglês");
-
-select id from Conteudo where nome like "Inglês";
-
-insert into Carrinho values
-(101, 1);
-
-select * from Item_Carrinho;
+select * from Usuario;
+select * from Conteudo;
 select * from Item;
-select * from Conteudo where nome = "Português";
+select * from Carrinho;
+select * from Item_Carrinho;
 
-update Item set conteudo = 1, tipo = "jpeg" where id like 1 limit 1;
-insert into Item(nome, valor) values ("teste", 42);
-
-truncate table Item;
-
-call Colocar_Item(101,1001);
-call Limpar_Carrinho(101);
-call Remover_Item(101,1001);
-
-drop database shareduca;
-drop procedure colocar_item;
-drop procedure limpar_carrinho;
-drop procedure remover_item;
+insert into Usuario values
+(10,"Robson","botlike@","1234",0),
+(12,"Miriam","moonlight@","qwert",1);
+insert into Conteudo values
+(1,"Português"),
+(2,"Inglês");
+insert into Item values
+(1,1,"Pontuação - Teoria","jpeg",50000,15.90),
+(2,1,"Exercício de Pontuação","pdf",15000,19.90),
+(3,2,"Verb To Be","png",65000,16.50),
+(4,2,"Exercício: Verb To Be","pdf",30000,18.00);
+insert into Carrinho values
+(1001,10),
+(1002,12);

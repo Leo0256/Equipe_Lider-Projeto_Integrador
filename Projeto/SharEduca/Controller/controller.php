@@ -1,26 +1,49 @@
 <?php
     namespace Controller;
 
-    use Model\Model, Controller\View;
+    use Model\Model;
 
     include_once dirname(__DIR__)."\Model\model.php";
-    include_once __DIR__."\\view_controller.php";
+    
 
     class Controller{
-        public $model;
-        public $view;
+        private $model;
 
         var $folder = "data/";
 
-        public function __construct(){
+        public function __construct($local){
             $this->model = new Model();
-            $this->view = new View();
+            $paste = "";
+            if($local != ""){
+                $paste = dirname(__DIR__)."/View/".$local.".php";
+            }
+            
+            if(file_exists($paste)){
+                require $paste;
+            }else{
+                require "View/error/404.php";
+            }
+
+            if(isset($_GET["con"])){
+                $var = explode(",",$_GET["con"]);
+                $this->{$var[0]}($var[1]);
+            }/*else{
+                echo "<br><br><br><br><br><br>n foi";
+            }*/
+
         }
 
-        public function invoke(){
-            $data = $this->model->getUser(1);
-            include "View/Menu.php";
-            
+        // "c" de "conteúdo"
+        public function c($title){
+            $item = [];
+            echo $title;
+            if(isset($_POST["item"])){
+                
+            }
+
+            for($x = 0; $x < 3; $x++){
+                require dirname(__DIR__)."/View/Lista_Itens.php";
+            }
         }
 
         public function addItem(){
@@ -75,10 +98,6 @@
                     $response = $this->model->delCartItem($cart, $item);
                 }
             }
-
-
-
-            
         }
     }
 ?>

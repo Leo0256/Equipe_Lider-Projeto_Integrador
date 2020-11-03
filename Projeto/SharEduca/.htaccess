@@ -5,6 +5,7 @@ satisfy all
 </files>
 
 
+
 AddDefaultCharset utf-8
 
 Options +Indexes
