@@ -8,17 +8,18 @@ Possibilitar ao cliente a venda do conteúdo acadêmico já disponibilizado.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Valores entregues (Com base nos requisitos):
-- Implantação do banco de dados
-- Implementação do banco de dados
-- Conteúdo (Inglês PDF- Exercícios)
-- Conteúdo (Língua Portuguesa PDF- Concordância)
-- Conteúdo (Matemática Discreta- Grafos e Lógica)
-- Conteúdo (Língua Portuguesa- Vídeos de concordância e pontuação)
-- Conteúdo (Laboratório de Hardware- Introdução ao Computador)
-- Layout Página inicial
-- Layout do carrinho de compras
-- Layout Login
-- Layout do conteúdo
+- Ajustes do Projeto;
+- Implantação do banco de dados;
+- Implementação do banco de dados;
+- Conteúdo (Inglês PDF- Exercícios);
+- Conteúdo (Língua Portuguesa PDF- Concordância);
+- Conteúdo (Matemática Discreta- Grafos e Lógica);
+- Conteúdo (Língua Portuguesa- Vídeos de concordância e pontuação);
+- Conteúdo (Laboratório de Hardware- Introdução ao Computador);
+- Layout Página inicial;
+- Layout do carrinho de compras;
+- Layout Login;
+- Layout do conteúdo.
 
 
 
