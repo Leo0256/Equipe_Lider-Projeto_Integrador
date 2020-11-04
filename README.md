@@ -73,7 +73,7 @@ lojas online como a Udemy, não vende cursos mas sim o conteúdo de estudo e con
 
  
 ### Linha do Tempo
-![Linha_do_tempo_atualizada](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Linha%20do%20tempo%20atualizada.png)
+![LINHA_DO_TEMPO_ATUALIZADA](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/LINHA_DO_TEMPO_ATUALIZADA.png)
 
 
 ### Diagrama de Caso de Uso
