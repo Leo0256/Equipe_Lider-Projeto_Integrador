@@ -98,7 +98,7 @@ lojas online como a Udemy, não vende cursos mas sim o conteúdo de estudo e con
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![C02.](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Cards/C02..jpg)
+![C002.OK.](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Cards/C002.OK.jpg)
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
