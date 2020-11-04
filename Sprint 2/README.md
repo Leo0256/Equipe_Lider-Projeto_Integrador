@@ -8,7 +8,7 @@ Possibilitar ao cliente a venda do conteúdo acadêmico já disponibilizado.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Valores entregues (Com base nos requisitos):
-- Ajustes do Projeto;
+
 - Implantação do banco de dados;
 - Implementação do banco de dados;
 - Conteúdo (Inglês PDF- Exercícios);
