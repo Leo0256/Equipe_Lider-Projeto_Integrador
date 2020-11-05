@@ -104,7 +104,7 @@ Possibilitar ao cliente a venda do conteúdo acadêmico já disponibilizado.
 ![GIF_Layout_Site_SharEduca.gif](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/GIF_Layout_Site_SharEduca.gif)
  
 
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------
  
 
  
