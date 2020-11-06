@@ -83,19 +83,19 @@ Possibilitar ao cliente a venda do conteúdo acadêmico já disponibilizado.
 
  ## Prévia do Conteúdo de Laboratório de Hardware- Introdução ao Computador (Conteúdo na íntrega em formato PDF). 
 
-![LAB_HARD_INTRO_PC1](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LAB_HARD_INTRO_PC1.jpg)
+![LAB_HARD_INTRO_PC1](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LabHard/LAB_HARD_INTRO_PC1.jpg)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![LAB_HARD_INTRO_PC2](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LAB_HARD_INTRO_PC2.jpg)
+![LAB_HARD_INTRO_PC2](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LabHard/LAB_HARD_INTRO_PC2.jpg)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![LAB_HARD_INTRO_PC3](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LAB_HARD_INTRO_PC3.jpg)
+![LAB_HARD_INTRO_PC3](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LabHard/LAB_HARD_INTRO_PC3.jpg)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![LAB_HARD_INTRO_PC4](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LAB_HARD_INTRO_PC4.jpg)
+![LAB_HARD_INTRO_PC4](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LabHard/LAB_HARD_INTRO_PC4.jpg)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
