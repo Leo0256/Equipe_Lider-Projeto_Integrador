@@ -16,14 +16,14 @@
             $data = $this->con->execute(
                 "select * from Usuario where id = $id"
             );
-            return $data->fetch_assoc();
+            return [$data[0], $data[1]->fetch_assoc()];
         }
 
         public function addItemCart($cart, $item){
             $request = $this->con->execute(
                 "call add_ItemCarrinho($cart, $item);"
             );
-            if($request == 1){
+            if($request[0] == True){
                 return "Item adicionado ao Carrinho.";
             }else{
                 return "Erro ao adicionar o Item.";
@@ -34,7 +34,7 @@
             $request = $this->con->execute(
                 "call clear_ItemCarrinho($cart);"
             );
-            if($request == 1){
+            if($request[0] == True){
                 return "Carrinho esvaziado.";
             }else{
                 return "Erro ao limpar o Carrinho.";
@@ -45,67 +45,112 @@
             $request = $this->con->execute(
                 "call remove_ItemCarrinho($cart, $item);"
             );
-            if($request == 1){
+            if($request[0] == True){
                 return "Item removido.";
             }else{
                 return "Erro ao remover o Item do Carrinho.";
             }
         }
 
-        public function getContent($name){
-            try{
-                $request = $this->con->execute('select * from Conteudo where nome = "'.$name.'";');
-                //"select id from Conteudo where nome like ".$name.";"
-                
-                return $request->fetch_assoc();
+        public function getContent($var){
+            $sql = "select * from Conteudo where ";
 
-            }catch(mysqli_sql_exception $e){
-                throw "Erro: ".$e;
-            }
+            $sql = (gettype($var) == "integer" ? 
+                $sql."id = $var limit 1" : $sql.'nome = "'.$var.'" limit 1;'
+            );
+
+            return $this->rowRequest($sql, True);
+
+            
+            /*
+            $request = $this->con->execute('select * from Conteudo where nome = "'.$name.'" limit 1;');
+            //"select id from Conteudo where nome like ".$name.";"
+            $array = [];
+            
+            if($request[0] == True){
+                while ($row = mysqli_fetch_array($request[1])){
+                    $array[] = $row;
+                }
+                return $array[0];
+
+            }else{
+                return $request;
+            }*/
         }
 
         public function getAllContent(){
-            try{
-                $request = $this->con->execute('select * from Conteudo;');
-                $array = [];
-                
-                while ($row = mysqli_fetch_array($request)){
+            $sql = "select * from Conteudo;";
+            return $this->rowRequest($sql,False);
+            /*
+            $request = $this->con->execute('select * from Conteudo;');
+            $array = [];
+            
+            if($request[0] == True){
+                while ($row = mysqli_fetch_array($request[1])){
                     $array[] = $row;
                 }
-
                 return $array;
 
-            }catch(mysqli_sql_exception $e){
-                throw "Erro: ".$e;
-            }
+            }else{
+                return $request;
+            }*/
         }
 
-        public function getItem($id){
-            try{
-                $request = $this->con->execute('select * from Item where id = '.$id.';');
-                
-                return $request->fetch_assoc();
+        public function getItem($nome){
+            $request = $this->con->execute('select * from Item where nome = "'.$nome.'" limit 1;');
+            $array = [];
+            
+            if($request[0] == True){
+                while ($row = mysqli_fetch_array($request[1])){
+                    $array[] = $row;
+                }
+                return $array[0];
 
-            }catch(mysqli_sql_exception $e){
-                throw "Erro: ".$e;
+            }else{
+                return $request;
             }
         }
 
         public function getAllItens($content){
-            try{
-                $request = $this->con->execute("select * from Item where conteudo like ".$content.";");
-                $array = [];
-                
-                while ($row = mysqli_fetch_array($request)){
+            $sql = "select * from Item where conteudo like ".$content.";";
+            return $this->rowRequest($sql, False);
+            
+            /*
+            $request = $this->con->execute("select * from Item where conteudo like ".$content.";");
+            $array = [];
+            
+            if($request[0] == True){
+                while ($row = mysqli_fetch_array($request[1])){
+                    $array[] = $row;
+                }
+                return $array[0];
+
+            }else{
+                return $request;
+            }
+            */
+        }
+
+        private function rowRequest($sql, $one_row){
+            $request = $this->con->execute($sql);
+            $array = [];
+            
+            if($request[0] == True){
+                while ($row = mysqli_fetch_array($request[1])){
                     $array[] = $row;
                 }
 
-                return $array;
+                if($one_row){
+                    return $array[0];    
+                }else{
+                    return $array;
+                }
 
-            }catch(mysqli_sql_exception $e){
-                throw "Erro: ".$e;
+            }else{
+                return $request;
             }
         }
+
 
 
 

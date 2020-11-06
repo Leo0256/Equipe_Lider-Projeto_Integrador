@@ -18,6 +18,7 @@
     </div>
 
     <?php
+        // teste
         if(isset($_GET["add"])){
             if($_GET["add"] == 1){   
                 echo "alert('Item adicionado ao Carrinho!')";
@@ -29,6 +30,7 @@
 
     <div class="ml-5" style="margin-top: 8rem">
         <h1>
+            <a href="Conteudos" class='btn btn-outline-primary rounded-circle'><b><-</b></a>
             <?php echo $_GET["i"];?> 
             <?php if($this->user['acesso']){echo "<a href='New_Item?i=".$_GET["i"]."' class='btn btn-outline-primary rounded-circle'><b>+</b></a>";}?>
         </h1>

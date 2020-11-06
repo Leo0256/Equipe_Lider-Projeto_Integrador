@@ -14,8 +14,7 @@
 
         public function __construct($local,$user){
             $this->model = new Model();
-
-            $this->user = $this->model->getUser($user);
+            $this->user = $user;
 
             $paste = "";
             if($local != ""){
@@ -52,29 +51,39 @@
         }
 
         // Mostra todos os itens de um conteúdo
-        public function showItens($id){
-            $content = $this->model->getContent($id);
+        public function showItens($i){
+            $content = $this->model->getContent($i);
             $itens = $this->model->getAllItens($content["id"]);
             $message = 0;
 
             $title = $content["nome"];
             $content = $content["id"];
 
-            $name = "";     $id = 0;
+            $name = "";
             $descrip = "";  $type = "";
             $value = 0.0;   $zise = 0;
 
-            foreach ($itens as $key => $var) {
-                $id = $var["id"];
-                $name = utf8_encode($var["nome"]);
-                $type = utf8_encode($var["tipo"]);
-                $zise = $var["tamanho"];
-                $descrip = utf8_encode($var["descrip"]);
-                $value = $var["valor"];
+            for($x = 0;$x < count($itens);$x++){
+                $name = utf8_encode($itens[$x]["nome"]);
+                $type = utf8_encode($itens[$x]["tipo"]);
+                $zise = $itens[$x]["tamanho"];
+                $descrip = utf8_encode($itens[$x]["descrip"]);
+                $value = $itens[$x]["valor"];
 
                 require dirname(__DIR__)."/View/Cards/List_Item_card.php";
             }
         }
+
+        public function showFile($i){
+            $get_file = $this->model->getItem($i);
+            $get_file["conteudo"] = utf8_encode($this->model->getContent((int)$get_file["conteudo"])["nome"]);
+            $get_file["descrip"] = utf8_encode($get_file["descrip"]);
+
+            return $get_file;
+        }
+
+
+
 
         // Adiciona o item informado
         var $response;
@@ -86,16 +95,7 @@
             $this->response = $this->model->addItemCart($cart, $item);
         }
 
-        public function openFile($id){
-            $get_file = $this->model->getItem($id);
-            
-            $file = fopen($this->folder.$get_file["nome"], "r") 
-                or die("Não foi possível abrir o arquivo!");
-            $open = fread($file,filesize($get_file["nome"])) 
-                or die("Não foi possível abrir o arquivo!");
-            
-            fclose($file);
-        }
+        
 
 
 
@@ -144,6 +144,31 @@
                 }
             }
         }
+
+        public function carousel(){
+            $content = $this->model->getAllContent();
+
+            $count = count($content);
+            $name = $descrip = $img = [];
+
+            for($x=0;$x<$count;$x++){
+                $name[$x] = utf8_encode($content[$x]["nome"]);
+                $descrip[$x] = utf8_encode($content[$x]["descrip"]);
+                $img[$x] = $content[$x]["img"];
+            }
+
+            $data = [
+                'count' => $count,
+                'name' => $name,
+                'descrip' => $descrip,
+                'img' => $img
+            ];
+
+            return $data;
+            
+            #require dirname(__DIR__)."/View/Cards/Carousel_card.php";
+        }
+
 
         /*
         public function cart(){

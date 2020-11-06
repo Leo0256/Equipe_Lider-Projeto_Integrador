@@ -79,14 +79,15 @@ select * from Item;
 select * from Carrinho;
 select * from Item_Carrinho;
 
-select * from Conteudo where nome like "Inglês";
-
 insert into Usuario values
 (10,"Robson","botlike@","1234",1),
 (12,"Miriam","moonlight@","qwert",0);
 insert into Conteudo values
-(1,"Português","Aprenda a língua natal dos brasileiros com este conteúdo completo.","ex-book.jpg"),
-(2,"Inglês","Problemas com o inglês enferrujado? Esta série de conteúdos pode mudar a situação","ex-ing.jpg");
+(1,"Português","Decrição do conteúdo de Língua Portuguêsa.","lp.jpg"),
+(2,"Inglês","Descrição do conteúdo de Inglês.","ing.jpg"),
+(3,"Matemática Discreta","math.jpg"),
+(4,"Laboratório de Hardware","lab-hard.jpg");
+
 insert into Item values
 (1,1,"Pontuação - Teoria","jpeg",50000,"Conteúdo sobre o uso da pontuação.",15.90),
 (2,1,"Exercício de Pontuação","pdf",15000,"Excercícios práticos sobre pontuação.",19.90),

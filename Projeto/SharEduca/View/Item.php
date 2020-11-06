@@ -16,13 +16,17 @@
     <a class="btn btn-outline-primary" href="Login">Login</a>
   </div>
 
+  <?php $data = $this->showFile($_GET["i"]);?>
+
   <div class="ml-5" style="margin-top: 8rem">
-    <h1><?php echo $_GET["i"];?></h1>
+    <h1>
+      <a href="List_Item?i=<?php echo $data["conteudo"];?>" class='btn btn-outline-primary rounded-circle'><b><-</b></a>
+      <?php echo $data["nome"];?>
+    </h1>
     <hr class="mr-5">
     <br>
-    <div class="form-row container align-items-center mx-auto">
-      <?php $this->openFile($_GET["i"]);?>
-    <div>
+      <h3><u>Descrição</u></h3>
+      <h5 class="text-justify"><?php echo $data["descrip"];?></h5>
   </div>
 </body>
 </html>

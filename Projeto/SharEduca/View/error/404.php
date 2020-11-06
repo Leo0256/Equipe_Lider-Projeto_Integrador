@@ -17,8 +17,9 @@
         <a class="btn btn-outline-primary" href="Login">Login</a>
     </div>
 
-    <br><br>
-    <h2>404</h2>
-    <h4>Pasta não existe</h4>
+    <div class="ml-5" style="margin-top: 8rem">
+        <h2>404</h2>
+        <h4>Pasta não existe</h4>
+    </div>
 </body>
 </html>

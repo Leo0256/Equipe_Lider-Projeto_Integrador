@@ -31,10 +31,10 @@
 
 				$this->result = mysqli_query($this->link,$query);
 				if (!empty($this->result)){
-					return $this->result;
+					return [True, $this->result];
 
 				}else{
-					return "Erro na execução: ".$this->link->error;
+					return [False, "Erro na execução: ".$this->link->error];
 				}
 				
 			}catch(mysqli_sql_exception $e){

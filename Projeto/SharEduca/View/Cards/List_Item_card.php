@@ -3,9 +3,9 @@
     <h4 class="card-title"><?php echo $name;?></h4>
     <p class="card-text"><?php echo $descrip;?></p>
 
-    <a href="Item?i=<?php echo $id;?>" class="btn btn-outline-primary"><b>Ver Item</b></a>
+    <a href="Item?i=<?php echo $name;?>" class="btn btn-outline-primary"><b>Ver Item</b></a>
     
-    <a href="#?con=add,<?php echo $id;?>" class="btn btn-outline-primary">
+    <a href="#?con=add,<?php echo $name;?>" class="btn btn-outline-primary">
       <b>R$ <?php echo $value;?></b>
       <img class="figure figure-caption rounded" src="imagens/carrinho.png" width="20px">
     </a>
