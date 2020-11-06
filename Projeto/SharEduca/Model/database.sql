@@ -11,7 +11,9 @@ acesso int default 0
 
 create table if not exists Conteudo(
 id int primary key auto_increment,
-nome varchar(200) not null
+nome varchar(200) not null,
+descrip varchar(500) default "Sem descrição",
+img varchar(80) not null default "logo.jpg" #experimental
 );
 
 create table if not exists Item(
@@ -20,6 +22,7 @@ conteudo int default 0,
 nome varchar(250) not null,
 tipo varchar(10) not null,
 tamanho int not null,
+descrip varchar(500) default "Sem descrição",
 valor double(5,2) default 0.0,
 constraint FK_id_Conteudo_Item foreign key (conteudo) references Conteudo(id)
 )engine = MyISAM;
@@ -76,17 +79,19 @@ select * from Item;
 select * from Carrinho;
 select * from Item_Carrinho;
 
+select * from Conteudo where nome like "Inglês";
+
 insert into Usuario values
-(10,"Robson","botlike@","1234",0),
-(12,"Miriam","moonlight@","qwert",1);
+(10,"Robson","botlike@","1234",1),
+(12,"Miriam","moonlight@","qwert",0);
 insert into Conteudo values
-(1,"Português"),
-(2,"Inglês");
+(1,"Português","Aprenda a língua natal dos brasileiros com este conteúdo completo.","ex-book.jpg"),
+(2,"Inglês","Problemas com o inglês enferrujado? Esta série de conteúdos pode mudar a situação","ex-ing.jpg");
 insert into Item values
-(1,1,"Pontuação - Teoria","jpeg",50000,15.90),
-(2,1,"Exercício de Pontuação","pdf",15000,19.90),
-(3,2,"Verb To Be","png",65000,16.50),
-(4,2,"Exercício: Verb To Be","pdf",30000,18.00);
+(1,1,"Pontuação - Teoria","jpeg",50000,"Conteúdo sobre o uso da pontuação.",15.90),
+(2,1,"Exercício de Pontuação","pdf",15000,"Excercícios práticos sobre pontuação.",19.90),
+(3,2,"Verb To Be","png",65000,"Introdução ao verbo To Be.",16.50),
+(4,2,"Exercício: Verb To Be","pdf",30000,"Exercícios: Verb To Be.",18.00);
 insert into Carrinho values
 (1001,10),
 (1002,12);

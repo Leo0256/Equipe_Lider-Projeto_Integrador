@@ -9,7 +9,7 @@
        protected $host = "localhost:3308";
        protected $user = "root";
        protected $pass   = "";
-       protected $db    = "shareduca";
+       protected $db    = "shareducadb";
 
 		
 		function connect(){

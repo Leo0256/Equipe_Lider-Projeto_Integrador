@@ -1,8 +1,8 @@
 <html>
 <body>
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm fixed-top">
         <div class="my-0 mr-md-auto font-weight-normal">
-            <img class="card-img-overlay" style="border-radius: 35px;" src="imagens/logo.jpeg" width="150px">
+            <img class="card-img-overlay" src="imagens/logo.jpeg" width="150px">
         </div>
         <nav class="my-2 my-md-0 mr-md-3">
             <a class="p-2 text-dark" href="Menu">Página Inicial</a>

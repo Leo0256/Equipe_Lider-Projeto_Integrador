@@ -19,7 +19,7 @@
             return $data->fetch_assoc();
         }
 
-        public function setCart($cart, $item){
+        public function addItemCart($cart, $item){
             $request = $this->con->execute(
                 "call add_ItemCarrinho($cart, $item);"
             );
@@ -30,9 +30,9 @@
             }
         }
 
-        public function cleanCart($cart){
+        public function clearCart($cart){
             $request = $this->con->execute(
-                "call Limpar_Carrinho($cart);"
+                "call clear_ItemCarrinho($cart);"
             );
             if($request == 1){
                 return "Carrinho esvaziado.";
@@ -41,9 +41,9 @@
             }
         }
 
-        public function delCartItem($cart, $item){
+        public function rmItemCart($cart, $item){
             $request = $this->con->execute(
-                "call Remover_Item($cart, $item);"
+                "call remove_ItemCarrinho($cart, $item);"
             );
             if($request == 1){
                 return "Item removido.";
@@ -54,19 +54,72 @@
 
         public function getContent($name){
             try{
-                $request = $this->con->execute('select id from Conteudo where nome = "'.$name.'";');
+                $request = $this->con->execute('select * from Conteudo where nome = "'.$name.'";');
                 //"select id from Conteudo where nome like ".$name.";"
-                return $request->fetch_assoc()["id"];
+                
+                return $request->fetch_assoc();
 
             }catch(mysqli_sql_exception $e){
                 throw "Erro: ".$e;
             }
         }
 
+        public function getAllContent(){
+            try{
+                $request = $this->con->execute('select * from Conteudo;');
+                $array = [];
+                
+                while ($row = mysqli_fetch_array($request)){
+                    $array[] = $row;
+                }
+
+                return $array;
+
+            }catch(mysqli_sql_exception $e){
+                throw "Erro: ".$e;
+            }
+        }
+
+        public function getItem($id){
+            try{
+                $request = $this->con->execute('select * from Item where id = '.$id.';');
+                
+                return $request->fetch_assoc();
+
+            }catch(mysqli_sql_exception $e){
+                throw "Erro: ".$e;
+            }
+        }
+
+        public function getAllItens($content){
+            try{
+                $request = $this->con->execute("select * from Item where conteudo like ".$content.";");
+                $array = [];
+                
+                while ($row = mysqli_fetch_array($request)){
+                    $array[] = $row;
+                }
+
+                return $array;
+
+            }catch(mysqli_sql_exception $e){
+                throw "Erro: ".$e;
+            }
+        }
+
+
+
+
+
+
+
+
+
+
         public function saveData($file){
 
             $query = "insert into Item(nome,tipo,tamanho) values ('".
-                $file["name"]."','".
+                utf8_decode($file["name"])."','".
                 $file["type"]."',".
                 $file["size"]
             .");";
@@ -74,8 +127,11 @@
             try{
                 $request = $this->con->execute($query);
 
-                $query = "update Item set conteudo = ".$file["content"]
-                    .",valor = ".$file["value"]." where nome = '".$file["name"]."' limit 1;";
+                $query = "update Item set "
+                    ."conteudo = ".$file["content"]
+                    .',descrip = "'.utf8_decode($file["descrip"]).'"'
+                    .",valor = ".$file["value"]
+                    ." where nome = '".$file["name"]."' limit 1;";
                 $request = $this->con->execute($query);
 
                 if(!empty($request)){
