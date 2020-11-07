@@ -25,7 +25,10 @@ Possibilitar ao cliente a venda do conteúdo acadêmico já disponibilizado.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Implantação do Banco de dados:
--- Colocar GIF 
+
+### Dicionário de dados 
+
+![DDADOS](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/DDADOS.png)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Implementação do banco de dados: 
