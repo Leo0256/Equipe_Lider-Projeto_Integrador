@@ -68,10 +68,15 @@ Possibilitar ao cliente a venda do conteúdo acadêmico já disponibilizado.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Prévia do Conteúdo de Matemática Discreta- Grafos e Lógica (Conteúdo na íntrega em formato PDF). 
+## Prévia do Conteúdo de Matemática Discreta- Grafos (Conteúdo na íntrega em formato PDF). 
 
 ![nome da imagem na pasta](link da imagem na pasta)
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Prévia do Conteúdo de Matemática Discreta- Lógica (Conteúdo na íntrega em formato PDF). 
+
+![nome da imagem na pasta](link da imagem na pasta)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Prévia de Língua Portuguesa- Vídeos de concordância e pontuação (Conteúdo na íntrega em formato ?). 
