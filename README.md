@@ -72,6 +72,9 @@ lojas online como a Udemy, não vende cursos mas sim o conteúdo de estudo e con
 - ROI (Return on Investment)
 
  
+### Backlog
+![spt2backlog.jpg](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/spt2backlog.jpg)
+
 ### Linha do Tempo
 ![LINHA_DO_TEMPO_ATUALIZADA-V3](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/LINHA_DO_TEMPO_ATUALIZADA%20-%20V3.png)
 
