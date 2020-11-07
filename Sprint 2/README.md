@@ -230,11 +230,13 @@ insert into Carrinho values
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## GIF do layout da página inicial, carrinho de compras, login e conteúdo:
+## GIF do layout da página inicial, carrinho de compras e login:
 
 ![GIF_Layout_Site_SharEduca.gif](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/GIF_Layout_Site_SharEduca.gif)
  
-
+ ### GIF do menu de conteúdo:
+ 
+![GIFCONTEUDOS](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/GIFCONTEUDOS.gif)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
  
 
