@@ -71,15 +71,24 @@ Possibilitar ao cliente a venda do conteúdo acadêmico já disponibilizado.
 ## Prévia do Conteúdo de Matemática Discreta- Grafos (Conteúdo na íntrega em formato PDF). 
 
 ![GRAFOS01](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/GRAFOS01.jpg)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ![GRAFOS02](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/GRAFOS02.jpg)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ![GRAFOS03](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/GRAFOS03.jpg)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ![GRAFOS04](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/GRAFOS04.jpg)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Prévia do Conteúdo de Matemática Discreta- Lógica (Conteúdo na íntrega em formato PDF). 
 
-![L%C3%93GICA01](https://github.com/L%C3%93GICA01Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/L%C3%93GICA01.jpg)
+![LÓGICA01](https://github.com/L%C3%93GICA01Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/L%C3%93GICA01.jpg)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Prévia de Língua Portuguesa- Vídeos de concordância e pontuação (Conteúdo na íntrega em formato ?). 
