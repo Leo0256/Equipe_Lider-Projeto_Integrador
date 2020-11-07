@@ -88,7 +88,19 @@ Possibilitar ao cliente a venda do conteúdo acadêmico já disponibilizado.
 
 ## Prévia do Conteúdo de Matemática Discreta- Lógica (Conteúdo na íntrega em formato PDF). 
 
-![LÓGICA01](https://github.com/L%C3%93GICA01Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/L%C3%93GICA01.jpg)
+![LG1](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LG1.jpg)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![LG2](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LG2.jpg)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![LG3](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LG3.jpg)
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+![LG4](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LG4.jpg)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Prévia de Língua Portuguesa- Vídeos de concordância e pontuação (Conteúdo na íntrega em formato ?). 
