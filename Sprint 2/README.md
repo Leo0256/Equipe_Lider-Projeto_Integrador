@@ -156,9 +156,6 @@ insert into Carrinho values
 
 ![LPC1](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LP/LPC1.jpg)
 
-### Vídeo
-
-!(https://www.youtube.com/watch?v=L13E69IYHak)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -242,6 +239,8 @@ insert into Carrinho values
  
 ![GIFCONTEUDOS](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/GIFCONTEUDOS.gif)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
  
 
  
