@@ -210,11 +210,11 @@ insert into Carrinho values
 
 
 ### Vídeo de Concordância 
-![https://www.youtube.com/watch?v=L13E69IYHak]
+https://www.youtube.com/watch?v=L13E69IYHak
 
 
 ### Vídeo de pontuação
-![https://www.youtube.com/watch?v=x020Aro5TV4&feature=youtu.be]
+https://www.youtube.com/watch?v=x020Aro5TV4&feature=youtu.be
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
