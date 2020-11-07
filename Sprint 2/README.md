@@ -206,10 +206,15 @@ insert into Carrinho values
 ![LG4](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LG4.jpg)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
-## Prévia de Língua Portuguesa- Vídeos de concordância e pontuação (Conteúdo na íntrega em formato ?). 
+## Link dos Vídeos de concordância e pontuação. 
 
-![nome da imagem na pasta](link da imagem na pasta)
 
+### Vídeo de Concordância 
+![https://www.youtube.com/watch?v=L13E69IYHak]
+
+
+### Vídeo de pontuação
+![https://www.youtube.com/watch?v=x020Aro5TV4&feature=youtu.be]
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -240,7 +245,7 @@ insert into Carrinho values
 ![GIFCONTEUDOS](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/GIFCONTEUDOS.gif)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
+
  
 
  
