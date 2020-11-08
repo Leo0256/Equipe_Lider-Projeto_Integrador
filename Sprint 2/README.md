@@ -213,7 +213,7 @@ insert into Carrinho values
 https://www.youtube.com/watch?v=L13E69IYHak
 
 
-### Vídeo de pontuação
+### Vídeo de Pontuação
 https://www.youtube.com/watch?v=x020Aro5TV4&feature=youtu.be
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
