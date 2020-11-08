@@ -245,6 +245,12 @@ https://www.youtube.com/watch?v=x020Aro5TV4&feature=youtu.be
 ![GIFCONTEUDOS](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/GIFCONTEUDOS.gif)
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Gráfico Burndown
+
+![graficosprint2](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/graficosprint2.png)
+
+![tabelasprint2](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/tabelasprint2.png)
+
 
  
 
