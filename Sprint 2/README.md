@@ -3,7 +3,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Objetivo
-Possibilitar ao cliente a venda do conteúdo acadêmico já disponibilizado. 
+Proporcionar ao nosso cliente a visualização dos valores (listados abaixo) entregues da sprint 2.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
