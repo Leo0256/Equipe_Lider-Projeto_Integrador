@@ -33,7 +33,9 @@ Proporcionar ao nosso cliente a visualização dos valores (listados abaixo) ent
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Implementação do banco de dados:
 
+### Código do Banco de Dados
 
+![DB](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/C%C3%B3digos%20do%20Banco%20de%20Dados.png)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Prévia dos Exercícios de Inglês (Conteúdo na íntrega em formato PDF). 
