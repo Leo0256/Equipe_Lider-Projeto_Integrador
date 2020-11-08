@@ -28,7 +28,7 @@ Proporcionar ao nosso cliente a visualização dos valores (listados abaixo) ent
 
 ### Dicionário de dados 
 
-![DDADOS](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/DDADOS.png)
+![DDADOS](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Dicion%C3%A1rio%20de%20Dados.png)
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Implementação do banco de dados:
