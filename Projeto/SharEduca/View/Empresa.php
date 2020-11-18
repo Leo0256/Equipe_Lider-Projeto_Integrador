@@ -14,16 +14,17 @@
                 <img class="figure figure-caption" src="imagens/carrinho.png" width="30px">
             </a>
         </nav>
-        <a class="btn btn-outline-primary" href="Login">Login</a>
+        <a class="btn btn-outline-primary" href="Logon"><?php echo $this->acc_status;?></a>
     </div>
 
-    
-    <h2>texto</h2>
-    <h2>texto</h2>
-    <h2>texto</h2>
-    <h2>texto</h2>
-    <h2>texto</h2>
-    <h2>texto</h2>
-    <h2>texto</h2>
+    <div class="ml-5 mr-5 mb-5" style="margin-top: 8rem">
+        <h2>texto</h2>
+        <h2>texto</h2>
+        <h2>texto</h2>
+        <h2>texto</h2>
+        <h2>texto</h2>
+        <h2>texto</h2>
+        <h2>texto</h2>
+    </div>
 </body>
 </html>

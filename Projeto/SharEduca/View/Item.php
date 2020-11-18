@@ -13,7 +13,7 @@
         <img class="figure figure-caption" src="imagens/carrinho.png" width="30px">
       </a>
     </nav>
-    <a class="btn btn-outline-primary" href="Login">Login</a>
+    <a class="btn btn-outline-primary" href="Logon"><?php echo $this->acc_status;?></a>
   </div>
 
   <?php $data = $this->showFile($_GET["i"]);?>

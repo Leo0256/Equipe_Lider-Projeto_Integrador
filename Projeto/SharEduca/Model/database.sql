@@ -5,9 +5,10 @@ create table if not exists Usuario(
 id int primary key auto_increment,
 nome varchar(200) not null,
 email varchar(250) unique not null,
-senha varchar(50) not null,
+senha varchar(80) not null,
 acesso int default 0
 );
+
 
 create table if not exists Conteudo(
 id int primary key auto_increment,
@@ -79,14 +80,15 @@ select * from Item;
 select * from Carrinho;
 select * from Item_Carrinho;
 
+truncate table Usuario;
 insert into Usuario values
-(10,"Robson","botlike@","1234",1),
-(12,"Miriam","moonlight@","qwert",0);
+(10,"Robson","botlike@","19b8f0293c39e1810e48275ab5f6e9cb9963f4a9c31a86065193993959630584",1),
+(12,"Miriam","moonlight@","4b784ccc57e23678e8ead5dafd9373a9473003557b373bf5dd4b31ef2fdb14bd",0);
 insert into Conteudo values
 (1,"Português","Decrição do conteúdo de Língua Portuguêsa.","lp.jpg"),
 (2,"Inglês","Descrição do conteúdo de Inglês.","ing.jpg"),
-(3,"Matemática Discreta","math.jpg"),
-(4,"Laboratório de Hardware","lab-hard.jpg");
+(3,"Matemática Discreta","Descrição do conteúdo de Matemática Discreta.","math.jpg"),
+(4,"Laboratório de Hardware","Descrição do conteúdo de Laboratório de Hardware.","lab-hard.jpg");
 
 insert into Item values
 (1,1,"Pontuação - Teoria","jpeg",50000,"Conteúdo sobre o uso da pontuação.",15.90),

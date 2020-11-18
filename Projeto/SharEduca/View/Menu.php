@@ -1,7 +1,7 @@
 <html>
 <body>
     <div class="d-flex flex-column flex-md-row-reverse align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm fixed-top">
-        <a class="btn btn-outline-primary" href="Login">Login</a>
+        <a class="btn btn-outline-primary" href="Logon"><?php echo $this->acc_status;?></a>
         
         <nav class="my-2 my-md-0 mr-md-3">
             <a class="p-2 text-dark mark" href="#">Página Inicial</a>
@@ -16,6 +16,10 @@
 
     <img class="img w-25 mt-5 mx-auto d-block" src="imagens/logo.jpeg"/>
     
+    <?php
+        #print_r($this->user);
+    ?>
+
     <div class="ml-5 mr-5 mb-5" style="margin-top: 8rem">
         <hr>
         <?php $data = $this->carousel();?>

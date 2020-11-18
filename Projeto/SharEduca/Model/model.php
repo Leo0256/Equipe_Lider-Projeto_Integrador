@@ -2,10 +2,10 @@
     namespace Model;
 
     use Model\Connection;
-
     include_once "connection.php";
 
-    class Model{
+    // Classe responsável por fazer requisições ao banco de dados.
+    Class Model{
         var $con;
 
         public function __construct(){
@@ -13,10 +13,27 @@
         }
         
         public function getUser($id){
-            $data = $this->con->execute(
-                "select * from Usuario where id = $id"
+            $sql = (gettype($id) == "integer" ?
+                "select * from Usuario where id = $id" 
+                :
+                'select * from Usuario where nome like "'.$id.'" or email like "'.$id.'"'
             );
-            return [$data[0], $data[1]->fetch_assoc()];
+            $data = $this->con->execute($sql);
+            if($data[0]){
+                return $data[1]->fetch_assoc();
+            }else{
+                return False;
+            }
+            
+        }
+
+        public function setUser($var){
+            $sql = "insert into Usuario(nome,email,senha) values ("
+                .'"'.$var["nome"].'",'
+                .'"'.$var["email"].'",'
+                .'"'.$var["senha"].'")';
+            
+            return $this->con->execute($sql);
         }
 
         public function addItemCart($cart, $item){
@@ -60,78 +77,24 @@
             );
 
             return $this->rowRequest($sql, True);
-
-            
-            /*
-            $request = $this->con->execute('select * from Conteudo where nome = "'.$name.'" limit 1;');
-            //"select id from Conteudo where nome like ".$name.";"
-            $array = [];
-            
-            if($request[0] == True){
-                while ($row = mysqli_fetch_array($request[1])){
-                    $array[] = $row;
-                }
-                return $array[0];
-
-            }else{
-                return $request;
-            }*/
         }
 
         public function getAllContent(){
             $sql = "select * from Conteudo;";
-            return $this->rowRequest($sql,False);
-            /*
-            $request = $this->con->execute('select * from Conteudo;');
-            $array = [];
-            
-            if($request[0] == True){
-                while ($row = mysqli_fetch_array($request[1])){
-                    $array[] = $row;
-                }
-                return $array;
-
-            }else{
-                return $request;
-            }*/
+            return $this->rowRequest($sql);
         }
 
         public function getItem($nome){
-            $request = $this->con->execute('select * from Item where nome = "'.$nome.'" limit 1;');
-            $array = [];
-            
-            if($request[0] == True){
-                while ($row = mysqli_fetch_array($request[1])){
-                    $array[] = $row;
-                }
-                return $array[0];
-
-            }else{
-                return $request;
-            }
+            $sql = 'select * from Item where nome = "'.$nome.'" limit 1;';
+            return $this->rowRequest($sql,True);
         }
 
         public function getAllItens($content){
             $sql = "select * from Item where conteudo like ".$content.";";
-            return $this->rowRequest($sql, False);
-            
-            /*
-            $request = $this->con->execute("select * from Item where conteudo like ".$content.";");
-            $array = [];
-            
-            if($request[0] == True){
-                while ($row = mysqli_fetch_array($request[1])){
-                    $array[] = $row;
-                }
-                return $array[0];
-
-            }else{
-                return $request;
-            }
-            */
+            return $this->rowRequest($sql);
         }
 
-        private function rowRequest($sql, $one_row){
+        private function rowRequest($sql, $one_row=False){
             $request = $this->con->execute($sql);
             $array = [];
             
@@ -141,7 +104,7 @@
                 }
 
                 if($one_row){
-                    return $array[0];    
+                    return $array[0];
                 }else{
                     return $array;
                 }
@@ -150,16 +113,6 @@
                 return $request;
             }
         }
-
-
-
-
-
-
-
-
-
-
 
         public function saveData($file){
 

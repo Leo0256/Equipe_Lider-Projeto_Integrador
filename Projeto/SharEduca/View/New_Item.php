@@ -14,7 +14,7 @@
                 <img class="figure figure-caption" src="imagens/carrinho.png" width="30px">
             </a>
         </nav>
-        <a class="btn btn-outline-primary" href="#">Login</a>
+        <a class="btn btn-outline-primary" href="Logon"><?php echo $this->acc_status;?></a>
     </div>
 
     <div class="ml-5 mr-5" style="margin-top: 8rem">
@@ -22,8 +22,8 @@
         <hr>
         <form action="Conteudos?con=addItem," method="post" enctype="multipart/form-data">
         <div class="form-group">
-            <label for="titleFormFile">Selecione o arquivo:</label>
-            <input type="file" class="form-control-file" id="titleFormFile" name="file">
+            <label for="fileSelect">Selecione o arquivo:</label>
+            <input type="file" class="form-control-file" id="fileSelect" name="file">
         </div>
         
         <label for="inputValue">Valor</label>
