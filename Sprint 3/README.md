@@ -33,7 +33,7 @@ Entregar o site pronto ao cliente, conforme requisitos levantados do projeto com
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Prévia do COnteúdo de Lógica de Programação- Introdução- O que é lógica de programação? O que é um algoritmo? (Conteúdo na íntegra em formato PDF).
+## Prévia do Conteúdo de Lógica de Programação- Introdução- O que é lógica de programação? O que é um algoritmo? (Conteúdo na íntegra em formato PDF).
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
