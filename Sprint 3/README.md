@@ -24,9 +24,9 @@ Entregar o site pronto ao cliente, conforme requisitos levantados do projeto com
 ## Prévia do Conteúdo de Laboratório de Hardware- Componentes do computador. (Conteúdo na íntegra em formato PDF). 
 
 ![/LAB_HARD1.jpeg](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LAB_HARD1.jpeg)
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 ![LAB_HARD2.jpeg](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LAB_HARD2.jpeg)
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 ![LAB_HARD3.jpeg](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LAB_HARD3.jpeg)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
