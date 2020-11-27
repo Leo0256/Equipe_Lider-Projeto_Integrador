@@ -9,7 +9,7 @@
       <a class="p-2 text-dark" href="Empresa">Empresa</a>
       <a class="p-2 text-dark" href="Conteudos">Conteúdos</a>
       <a class="p-2 text-dark" href="Contato">Contato</a>
-      <a class="p-2" href="Carrinho">
+      <a class="btn p-1" href="Carrinho">
         <img class="figure figure-caption" src="imagens/carrinho.png" width="30px">
       </a>
     </nav>
@@ -18,9 +18,9 @@
 
   <?php $data = $this->showFile($_GET["i"]);?>
 
-  <div class="ml-5" style="margin-top: 8rem">
+  <div class="ml-5" style="margin-top: 9rem">
     <h1>
-      <a href="List_Item?i=<?php echo $data["conteudo"];?>" class='btn btn-outline-primary rounded-circle'><b><-</b></a>
+      <a href="<?php echo $_SERVER["HTTP_REFERER"];?>" class='btn btn-outline-primary rounded-circle'><img class="rounded-circle" height="5%" src='imagens/back_arrow.png'></a>
       <?php echo $data["nome"];?>
     </h1>
     <hr class="mr-5">

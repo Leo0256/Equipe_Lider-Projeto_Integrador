@@ -4,11 +4,11 @@
         <a class="btn btn-outline-primary" href="Logon"><?php echo $this->acc_status;?></a>
         
         <nav class="my-2 my-md-0 mr-md-3">
-            <a class="p-2 text-dark mark" href="#">Página Inicial</a>
+            <a class="p-2 text-light mark" href="#">Página Inicial</a>
             <a class="p-2 text-dark" href="Empresa">Empresa</a>
             <a class="p-2 text-dark" href="Conteudos">Conteúdos</a>
             <a class="p-2 text-dark" href="Contato">Contato</a>
-            <a class="p-2" href="Carrinho">
+            <a class="btn p-1" href="Carrinho">
                 <img class="figure figure-caption" src="imagens/carrinho.png" width="30px">
             </a>
         </nav>
@@ -20,7 +20,7 @@
         #print_r($this->user);
     ?>
 
-    <div class="ml-5 mr-5 mb-5" style="margin-top: 8rem">
+    <div class="ml-5 mr-5 mb-5" style="margin-top: 8rem;">
         <hr>
         <?php $data = $this->carousel();?>
         
@@ -62,17 +62,8 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    <hr>
-
-</div>
-
-
+        <hr>
 
     </div>
-
-
-    <?php
-        
-    ?>
 </body>
 </html>

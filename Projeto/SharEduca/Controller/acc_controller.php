@@ -9,13 +9,18 @@
         private $model;
         private $user;
 
+        // E-mail para o contato
+        private $contact = "leo.ribeiro0256@gmail.com";
+
         public function __construct(){
             $this->model = new Model();
 
-            $this->user = $_SESSION["user"];
+            $this->user = (isset($_SESSION["user"]) ?
+                $_SESSION["user"] : null
+            );
         }
 
-        // Realiza o Log in do cliente.
+        // Realiza o Login do cliente.
         public function makeLogin(){
             if(isset($_POST["submit_login"])){
                 $var = [
@@ -31,7 +36,7 @@
             }
         }
 
-        // Realiza o Log on do clente.
+        // Realiza o cadastro do cliente.
         public function makeLogon(){
             if(isset($_POST["submit_logon"])){
                 $hash = "";
@@ -58,6 +63,16 @@
             return null;
         }
 
+        public function sendMenssage($data){
+            $headers = "MIME-Version: 1.0"."\r\n"
+                ."Content-type:text/html;charset=UTF-8"."\r\n"
+                ."From: ".$data["email"]."\r\n"
+                ."CC: ".$contact;
+
+            return mail($contact,$data["nome"],$data["content"],$header);
+        }
+
+        /** */
         private function finishSession(){
             session_destroy();
         }

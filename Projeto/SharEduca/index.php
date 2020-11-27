@@ -1,4 +1,4 @@
-<? header("Location: http://127.0.0.1/"); ?>
+<? #header("Location: http://127.0.0.1/"); exit(); ?>
 <head>
     <title>SharEduca</title>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
@@ -12,16 +12,20 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     
 </head>
+<!--?php
+foreach ($_SERVER as $key => $value) {
+    echo "<br><strong>$key => </strong>$value<br>";
+}
+echo "<a href='".$_SERVER["REQUEST_URI"]."View/'>teste</a>";
+?-->
 <?php
     include_once "/Controller/controller.php";
     use Controller\Controller;
 
     session_start();
 
-    // URL limpa
     $URI = filter_input(INPUT_SERVER, "REQUEST_URI");
     $get_init = strpos($URI, "?");
-    $get_request = (isset($_GET["con"]) ? $_GET["con"] : "");
 
     if($get_init){
         $URI = substr($URI, 0, $get_init);
@@ -32,11 +36,6 @@
 
     if($URL[count($URL)-1] == ""){
         $URL[count($URL)-1] = "Menu";
-    }
-
-    $paste = __DIR__."\Controller\controller.php";
-    if($get_request != ""){
-        $paste = $paste."?con=".$get_request;
     }
     
     $con = new Controller($URL[count($URL)-1]);

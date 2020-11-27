@@ -8,9 +8,9 @@
         <nav class="my-2 my-md-0 mr-md-3">
             <a class="p-2 text-dark" href="Menu">Página Inicial</a>
             <a class="p-2 text-dark" href="Empresa">Empresa</a>
-            <a class="p-2 text-dark mark" href="#">Conteúdos</a>
+            <a class="p-2 text-light mark" href="#">Conteúdos</a>
             <a class="p-2 text-dark" href="Contato">Contato</a>
-            <a class="p-2" href="Carrinho">
+            <a class="btn p-1" href="Carrinho">
                 <img class="figure figure-caption" src="imagens/carrinho.png" width="30px">
             </a>
         </nav>
@@ -20,7 +20,7 @@
     <div class="ml-5" style="margin-top: 8rem">
         <h1>
             Conteúdos 
-            <?php if($this->user['acesso']){echo "<a href='New_Item' class='btn btn-outline-primary rounded-circle'><b>+</b></a>";}?>
+            <?php echo $this->addOption(True);?>
         </h1>
         <hr class="mr-5">
         <br>

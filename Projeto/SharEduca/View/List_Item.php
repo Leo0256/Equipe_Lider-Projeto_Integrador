@@ -10,7 +10,7 @@
             <a class="p-2 text-dark" href="Empresa">Empresa</a>
             <a class="p-2 text-dark" href="Conteudos">Conteúdos</a>
             <a class="p-2 text-dark" href="Contato">Contato</a>
-            <a class="p-2" href="Carrinho">
+            <a class="btn p-1" href="Carrinho">
                 <img class="figure figure-caption" src="imagens/carrinho.png" width="30px">
             </a>
         </nav>
@@ -18,28 +18,18 @@
     </div>
 
     <?php
-        // teste
-        if(isset($_GET["add"])){
-            if($_GET["add"] == 1){   
-                echo "alert('Item adicionado ao Carrinho!')";
-            }else{
-                echo "alert('Erro ao adicionar o item, tente novamente.')";
-            }
-        }
     ?>
 
     <div class="ml-5" style="margin-top: 8rem">
         <h1>
-            <a href="Conteudos" class='btn btn-outline-primary rounded-circle'><b><-</b></a>
-            <?php echo $_GET["i"];?> 
-            <?php if($this->user['acesso']){echo "<a href='New_Item?i=".$_GET["i"]."' class='btn btn-outline-primary rounded-circle'><b>+</b></a>";}?>
+            <a href="Conteudos" class='btn btn-outline-primary rounded-circle'><img class="rounded-circle" height="5%" src='imagens/back_arrow.png'></a>
+            <?php echo $_GET["i"]."\n".$this->addOption(False,$_GET["i"]);?>
         </h1>
-        
         
         <hr class="mr-5">
         <br>
         <div class="form-row container align-items-center mx-auto">
-            <?php $this->showItens(utf8_decode($_GET["i"])); ?>
+            <?php $this->showItens($_GET["i"]); ?>
         <div>
     </div>
 

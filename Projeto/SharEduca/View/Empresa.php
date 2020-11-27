@@ -7,24 +7,18 @@
         </div>
         <nav class="my-2 my-md-0 mr-md-3">
             <a class="p-2 text-dark" href="Menu">Página Inicial</a>
-            <a class="p-2 text-dark mark" href="#">Empresa</a>
+            <a class="p-2 text-light mark" href="#">Empresa</a>
             <a class="p-2 text-dark" href="Conteudos">Conteúdos</a>
             <a class="p-2 text-dark" href="Contato">Contato</a>
-            <a class="p-2" href="Carrinho">
+            <a class="btn p-1" href="Carrinho">
                 <img class="figure figure-caption" src="imagens/carrinho.png" width="30px">
             </a>
         </nav>
         <a class="btn btn-outline-primary" href="Logon"><?php echo $this->acc_status;?></a>
     </div>
 
-    <div class="ml-5 mr-5 mb-5" style="margin-top: 8rem">
-        <h2>texto</h2>
-        <h2>texto</h2>
-        <h2>texto</h2>
-        <h2>texto</h2>
-        <h2>texto</h2>
-        <h2>texto</h2>
-        <h2>texto</h2>
+    <div class="ml-5 mr-5" style="margin-top: 6rem">
+    <img class="img w-50 mt-5 mx-auto d-block" src="imagens/empresa.png"/>
     </div>
 </body>
 </html>

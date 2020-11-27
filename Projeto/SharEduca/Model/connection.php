@@ -3,7 +3,6 @@
 
 	// Classe que faz conexão ao banco de dados e executa comandos SQL.
 	Class Connection{
-		var $query;
 		var $link;
 		var $result;
 
@@ -32,7 +31,6 @@
 			try{
 
 				$this->connect();
-				$this->query = $query;
 
 				$this->result = mysqli_query($this->link,$query);
 				if (!empty($this->result)){
@@ -44,6 +42,7 @@
 				
 			}catch(mysqli_sql_exception $e){
 				throw $e;//throw new Exception($e);// mysqli_error($this->link);
+				
 			}finally{
 				$this->disconnect();
 			}

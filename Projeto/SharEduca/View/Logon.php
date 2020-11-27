@@ -10,7 +10,7 @@
             <a class="p-2 text-dark" href="Empresa">Empresa</a>
             <a class="p-2 text-dark" href="Conteudos">Conteúdos</a>
             <a class="p-2 text-dark" href="Contato">Contato</a>
-            <a class="p-2" href="Carrinho">
+            <a class="btn p-1" href="Carrinho">
                 <img class="figure figure-caption" src="imagens/carrinho.png" width="30px">
             </a>
         </nav>
@@ -39,7 +39,6 @@
                 </div>
             </div>
         </form>
-
     </div>
 </body>
 </html>
