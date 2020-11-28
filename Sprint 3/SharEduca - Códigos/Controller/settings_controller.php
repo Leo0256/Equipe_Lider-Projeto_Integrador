@@ -16,8 +16,8 @@
         private $model;
 
         private $email = [
-            "user" => "leo.ribeiro0256@gmail.com", // E-mail do SMTP
-            "pass" => "0256067Lr@" // Senha do SMTP
+            "user" => "", // E-mail do SMTP
+            "pass" => "" // Senha do SMTP
         ];
 
         private $mastercard = [
@@ -47,7 +47,7 @@
                 $mail->AltBody = $data["title"];
 
                 if($mail->send()){
-                    return "E-mail enviado";
+                    return "E-mail enviado com sucesso";
                 }else{
                     return "E-mail não enviado";
                 }

@@ -30,7 +30,7 @@
 
                 <div class="row pt-3 pr-3 pl-3 pb-1 border-bottom border-secondary">
                     <h5>
-                        Entre em contato conosco para informar algum problema, dar dugestões 
+                        Entre em contato conosco para informar algum problema, dar sugestões 
                         ou fazer uma reclamação.
                     </h5>
                 </div>
