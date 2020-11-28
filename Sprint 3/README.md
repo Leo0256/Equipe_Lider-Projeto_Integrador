@@ -3,7 +3,7 @@
 -----------------------------------------------------------------------------------------------------------------------------------------------
 
 ## Objetivo
-Entregar o site pronto ao cliente, conforme requisitos levantados do projeto como um todo, disponibilizando todos os conteúdos solicitados. 
+Entregar o site pronto, de acordo com as especificações e requisitos solicitados pelo cliente.  
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 ## Valores entregues (Com base nos requisitos):
