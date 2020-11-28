@@ -25,14 +25,22 @@ Entregar o site pronto ao cliente, conforme requisitos levantados do projeto com
 
 ## GIFs das funcionalidades do site:
 
-![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Carrinho.gif)
-
-![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Contato.gif)
-
+### Login:
 ![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Login.gif)
 
+### Menu e Empresa:
 ![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Menu%20e%20Empresa.gif)
 
+### GIF do Layout da empresa (Missão, Visão e Valores), GIF do Layout do contato 
+![GIF_Layout_Empresa_Contato_novo.gif](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/GIF_Layout_Empresa_Contato_novo.gif)
+
+### Carrinho de compras:
+![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Carrinho.gif)
+
+### Contato:
+![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Contato.gif)
+
+###  Adicionando novo conteúdo:
 ![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Novo%20Conteudo%20e%20Item.gif)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -74,12 +82,6 @@ Entregar o site pronto ao cliente, conforme requisitos levantados do projeto com
 ![LOGICA_PROG1.jpg](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LOGICA_PROG1.jpg)
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 ![LOGCIA_PROG2.jpg](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LOGCIA_PROG2.jpg)
-
---------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## GIF do Layout da empresa (Missão, Visão e Valores), GIF do Layout do contato 
-
-![GIF_Layout_Empresa_Contato_novo.gif](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/GIF_Layout_Empresa_Contato_novo.gif)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
