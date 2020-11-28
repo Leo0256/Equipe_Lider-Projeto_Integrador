@@ -17,7 +17,23 @@ Entregar o site pronto ao cliente, conforme requisitos levantados do projeto com
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Testes de Qualidade do Sistema (Inserir GIFs dos testes e Imagem da planilha com checklist dos mesmos):
+## Planilha de Testes de Qualidade do Sistema:
+
+![Planilha%20de%20Testes.png](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Planilha%20de%20Testes.png)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## GIFs das funcionalidades do site:
+
+![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Carrinho.gif)
+
+![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Contato.gif)
+
+![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Login.gif)
+
+![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Menu%20e%20Empresa.gif)
+
+![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Novo%20Conteudo%20e%20Item.gif)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
