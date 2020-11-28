@@ -23,28 +23,6 @@ Entregar o site pronto ao cliente, conforme requisitos levantados do projeto com
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## GIFs das funcionalidades do site:
-
-### Login:
-![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Login.gif)
-
-### Menu e Empresa:
-![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Menu%20e%20Empresa.gif)
-
-### GIF do Layout da empresa (Missão, Visão e Valores), GIF do Layout do contato 
-![GIF_Layout_Empresa_Contato_novo.gif](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/GIF_Layout_Empresa_Contato_novo.gif)
-
-### Carrinho de compras:
-![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Carrinho.gif)
-
-### Contato:
-![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Contato.gif)
-
-###  Adicionando novo conteúdo:
-![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Novo%20Conteudo%20e%20Item.gif)
-
---------------------------------------------------------------------------------------------------------------------------------------------------------
-
 ## Prévia do Conteúdo de Laboratório de Hardware- Componentes do computador. (Conteúdo na íntegra em formato PDF). 
 
 ![/LAB_HARD1.jpeg](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LAB_HARD1.jpeg)
@@ -82,6 +60,25 @@ Entregar o site pronto ao cliente, conforme requisitos levantados do projeto com
 ![LOGICA_PROG1.jpg](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LOGICA_PROG1.jpg)
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 ![LOGCIA_PROG2.jpg](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Conteudos/LOGCIA_PROG2.jpg)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## GIFs das funcionalidades do site:
+
+### Login:
+![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Login.gif)
+
+### Menu e Empresa (Missão, Visão e Valores):
+![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Menu%20e%20Empresa.gif)
+
+### Carrinho de compras:
+![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Carrinho.gif)
+
+###  Adicionando novo conteúdo:
+![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Novo%20Conteudo%20e%20Item.gif)
+
+### Contato:
+![](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/Gif%20-%20Contato.gif)
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
