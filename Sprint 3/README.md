@@ -82,10 +82,11 @@ Entregar o site pronto ao cliente, conforme requisitos levantados do projeto com
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## Gráfico Burndown (ADICIONAR TABELA E GRÁFICO)
+## Gráfico Burndown:
 
-![]()
-![]()
-![]()
+![GRAFICO_SPRINT3](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/GRAFICO_SPRINT3.png)
+
+![TABELA_BURNDOWN_S3](https://github.com/Leo0256/Equipe_Lider-Projeto_Integrador/blob/master/Projeto/Documentos/Imagens/TABELA_BURNDOWN_S3.png)
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------
